@@ -1,7 +1,7 @@
 // opencode.jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "default_agent": "Viernes",
+  //"default_agent": "Viernes",
   "permission": {
     "read": "allow",
     "list": "allow",
