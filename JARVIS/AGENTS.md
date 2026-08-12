@@ -2,76 +2,22 @@
 
 # Purpose
 
-**OpenJM** es un ecosistema de inteligencia artificial autónomo diseñado para operar como un asistente personal avanzado con capacidades multimodales (voz, visión, memoria, navegación web y ejecución de tareas automatizadas).
+The project is called JARVIS.
 
-**El proyecto JARVIS** es la implementación operativa de OpenJM, actuando como:
 
-- **El núcleo autoritativo**: JARVIS es la fuente única de verdad para datos, reglas, decisiones y comportamientos del dominio OpenJM. Ningún otro componente del sistema puede reinterpretar o duplicar su lógica central.
-- **El orquestador de superficies**: Coordina y delega responsabilidades específicas a diferentes superficies de interacción (frontend, backend, servicios especializados) sin perder la coherencia con el núcleo autoritativo.
-- **El puente de integración**: Facilita la comunicación entre componentes internos y externos, asegurando que las representaciones y adaptaciones respeten los contratos definidos sin alterar la lógica de dominio.
+This file defines the root policy for agent work in this project.
+It governs:
 
----
+- instruction resolution;
+- project navigation;
+- user-facing language;
+- ambiguity and risk handling;
+- universal security;
+- runtime hygiene;
+- file-change authorization and execution.
 
-**El API de OpenJM** es la fuente autoritativa de datos, reglas, decisiones y contratos del dominio. JARVIS actúa como el intermediario que expone y consume estos contratos a través de sus diferentes superficies operativas.
-
-**Los servicios backend** manejan la lógica de negocio y exposición de APIs para consumidores internos/externos. Deben validar la conformidad con los contratos de integración y adaptar representaciones, pero **nunca** redefinir o reproducir de forma independiente el comportamiento autoritativo del dominio OpenJM.
-
-**La interfaz frontend** consume los contratos expuestos por los servicios backend. No debe reinterpretar ni reproducir de forma independiente el comportamiento autoritativo del dominio OpenJM, sino consumir y presentar la información según los contratos definidos.
-
----
-
-# Instruction Resolution
-
-Leer **únicamente** los documentos de roles requeridos por la tarea:
-
-- **Para todo trabajo de código**: Usar `AGENTS/docs/roles/coder.md`
-- **Para trabajo que afecte el frontend o comportamiento en navegador**: Usar adicionalmente `AGENTS/docs/roles/frontend.md`
-- **Para trabajo que afecte backend, BFF (Backend for Frontend) o comportamiento en servidor**: Usar adicionalmente `AGENTS/docs/roles/backend.md`
-- **Para creación, modificación, revisión o ejecución de tests de Playwright o verificación en navegador**: Usar adicionalmente `AGENTS/docs/roles/tester.md`
-- **Para integración con servicios externos, APIs o navegación web automatizada**: Usar adicionalmente `AGENTS/docs/roles/internet.md`
-- **Para manejo de voz, audio o procesamiento de lenguaje natural**: Usar adicionalmente `AGENTS/docs/roles/voice.md`
-- **Para manejo de memoria, contexto o persistencia de datos**: Usar adicionalmente `AGENTS/docs/roles/memory.md`
-- **Para manejo de visión por computadora o procesamiento de imágenes**: Usar adicionalmente `AGENTS/docs/roles/vision.md`
-- **Para fundamentos, estructura y criterios de mantenimiento del agente**: Usar `AGENTS/docs/roles/fundamentos.md`
-
-**Orden de aplicación de instrucciones**:
-1. Instrucciones del sistema y plataforma
-2. Instrucciones del usuario en la conversación actual
-3. Este archivo AGENTS.md
-4. Documentos de roles aplicables, desde el rol base heredado hasta la especialización más estrecha
-5. Convenciones del repositorio y patrones existentes
-6. Mejores prácticas generales
-
-Cuando las instrucciones entren en conflicto, seguir la instrucción de mayor autoridad. Reportar conflictos materiales que afecten la tarea.
-
-Leer roles hermanos **únicamente** cuando la tarea abarque múltiples superficies o un documento aplicable lo requiera explícitamente. Detener la carga de documentos de roles cuando la cadena de instrucciones aplicable sea suficiente.
-
----
-
-# Project Navigation
-
-Para trabajo en JARVIS, inspeccionar las siguientes fuentes cuando puedan afectar materialmente el resultado:
-
-- **Frontend de JARVIS**: `jarvis_gui.py`, `jarvis.py`, `old_jarvis_gui.py`
-- **Servicios backend especializados**:
-  - `voice_server.py` (procesamiento de voz)
-  - `vision_server.py` (procesamiento de imágenes)
-  - `memory_server.py` (gestión de memoria)
-  - `internet_server.py` (navegación web y APIs)
-  - `app_opener_server.py` (automatización de aplicaciones)
-- **Documentación de integración y contratos**:
-  - `jarvis_context.json` (contexto global y configuración)
-  - `jarvis_memory.json` (persistencia de memoria)
-  - `jarvis_folders_index.json` (índice de carpetas y archivos)
-  - `jarvis_apps_index.json` (índice de aplicaciones integradas)
-- **Servicios especializados**:
-  - `xtts_test.py` (text-to-speech)
-  - `convertir_voz.py` (conversión de voz)
-  - `safety_filter.py` (filtros de seguridad)
-
-**No modificar** los archivos de documentación de contratos (`api_endpoint_implementation.md`, `api-reference.md`) a menos que el usuario lo solicite explícitamente.
-
----
+Role documents extend this policy with narrower rules.
+Role documents must not duplicate or redefine rules owned by this file.
 
 # Ambiguity And Risk
 
@@ -90,8 +36,6 @@ State material risk before acting when it affects the user's decision or the saf
 Require explicit confirmation before irreversible or high-cost actions when the consequence of error is material.
 Propose a safer alternative when one materially reduces risk without defeating the user's objective.
 
----
-
 # Security
 
 Do not expose, commit, or persist:
@@ -103,10 +47,6 @@ Do not expose, commit, or persist:
 - authentication tokens;
 - production-only configuration;
 - equivalent sensitive authentication material.
-- configuraciones de producción
-- tokens de autenticación de servicios externos
-- datos sensibles de configuración de navegadores automatizados
-- credenciales de APIs de terceros integradas
 
 Do not invent, infer, or reveal sensitive values.
 Do not place sensitive material in unintended:
@@ -116,7 +56,7 @@ Do not place sensitive material in unintended:
 - user-visible output;
 - client-accessible surfaces.
 
----
+More specific application-security and trust-boundary rules belong to the applicable role document.
 
 # Runtime Hygiene
 
@@ -128,15 +68,7 @@ Clean up agent-created temporary processes, sessions, browsers, watchers, server
 Do not terminate, replace, or remove resources that existed before the agent's work unless the approved task requires it.
 Preserve pre-existing generated artifacts unless their removal is explicitly within scope.
 Report any agent-created resource that cannot be safely cleaned up.
-
-Verificar y liberar recursos exclusivos antes de asignarlos (puertos, sockets, locks de archivos)
-Limpiar procesos temporales creados por el agente en:
-- `colab_browser_profile/` (perfiles de navegador automatizado)
-- `captures/` (capturas de pantalla)
-- `voices/` (archivos de audio generados)
-- `searxng/` (instancias locales de búsqueda)
-
----
+More specific runtime, testing, browser, and generated-artifact rules belong to the applicable role document.
 
 # File Change Control
 
@@ -149,7 +81,8 @@ Resolve material change decisions before presenting the plan.
 Identify material dependencies, coupling, affected mechanisms, behavioral effects, and destructive consequences before presenting the plan.
 If the intended change materially affects or conflicts with a coupled mechanism outside the requested scope, surface that impact before presenting the plan.
 Do not silently expand the change to coupled mechanisms outside the requested scope.
-Do not present a plan while information that can materially change its objective, scope, change mechanism, affected files, or verification strategy remains unresolved.
+Do not present a plan while information that can materially change its objective, scope, change mechanism, affected files, or verification remains unresolved.
+Do not use the plan as a substitute for investigation, clarification, or decision-making that should occur beforehand.
 
 Investigation, clarification, and decision resolution may span multiple turns.
 When further progress depends on a user clarification or decision, present the established evidence and the unresolved matter, then end the turn.
@@ -179,13 +112,11 @@ The request that led to the plan does not authorize the plan.
 Silence does not authorize the plan.
 The agent's own statements do not authorize the plan.
 Clarification, discussion, inspection, previous work, or approval of a different plan does not authorize the plan.
-
 Approval applies only to the scope and change mechanism represented by the approved plan.
 
 Treat each approved plan as one bounded execution authorization.
 The authorization begins when the user explicitly approves the presented plan.
 The authorization remains active only while completing and verifying that plan.
-
 After approval, execute the plan without additional approval while the authorization remains active and the work remains within its authorized scope.
 Do not modify unrelated files, behavior, formatting, architecture, or mechanisms outside the approved scope.
 
