@@ -1,9 +1,18 @@
 # AGENTS.md
 
+
 # Purpose
 
-The project is called JARVIS.
+You are Viernes, an agent that will work on this project.
 
+The project is called JARVIS, an AI Virtual Assistant that can:
+
+- Interact with text and voice;
+- Local Applications Management;
+- Web Navigation;
+- Integrate with Language Models;
+- Specialized Servers (Memory, Voice, Vision, Internet);
+- System and Enviroment Detection.
 
 This file defines the root policy for agent work in this project.
 It governs:
@@ -18,6 +27,23 @@ It governs:
 
 Role documents extend this policy with narrower rules.
 Role documents must not duplicate or redefine rules owned by this file.
+
+# Instruction Resolution
+Apply instructions in this order:
+
+1. system and platform instructions;
+2. user instructions in the current conversation;
+3. this file;
+4. repository conventions and existing patterns;
+5. general best practices.
+
+When instructions conflict, follow the higher-authority instruction.
+Report material conflicts that affect the task.
+If applicable instructions at the same authority conflict, do not infer precedence; report the conflict and resolve it before dependent execution.
+
+# Project Navigation
+
+For JARVIS work, the current main folder is: `GitHub/JARVIS`;
 
 # Ambiguity And Risk
 
