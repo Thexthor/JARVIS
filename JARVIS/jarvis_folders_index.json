@@ -1,0 +1,462 @@
+{
+  "escritorio": {
+    "name": "escritorio",
+    "path": "C:\\Users\\Gabo\\Desktop",
+    "source": "known_folder"
+  },
+  "desktop": {
+    "name": "desktop",
+    "path": "C:\\Users\\Gabo\\Desktop",
+    "source": "known_folder"
+  },
+  "documentos": {
+    "name": "documentos",
+    "path": "C:\\Users\\Gabo\\Documents",
+    "source": "known_folder"
+  },
+  "documents": {
+    "name": "documents",
+    "path": "C:\\Users\\Gabo\\Documents",
+    "source": "known_folder"
+  },
+  "descargas": {
+    "name": "descargas",
+    "path": "C:\\Users\\Gabo\\Downloads",
+    "source": "known_folder"
+  },
+  "downloads": {
+    "name": "downloads",
+    "path": "C:\\Users\\Gabo\\Downloads",
+    "source": "known_folder"
+  },
+  "imagenes": {
+    "name": "imagenes",
+    "path": "C:\\Users\\Gabo\\Pictures",
+    "source": "known_folder"
+  },
+  "imágenes": {
+    "name": "imágenes",
+    "path": "C:\\Users\\Gabo\\Pictures",
+    "source": "known_folder"
+  },
+  "pictures": {
+    "name": "pictures",
+    "path": "C:\\Users\\Gabo\\Pictures",
+    "source": "known_folder"
+  },
+  "videos": {
+    "name": "videos",
+    "path": "C:\\Users\\Gabo\\Videos",
+    "source": "known_folder"
+  },
+  "musica": {
+    "name": "musica",
+    "path": "C:\\Users\\Gabo\\Music",
+    "source": "known_folder"
+  },
+  "música": {
+    "name": "música",
+    "path": "C:\\Users\\Gabo\\Music",
+    "source": "known_folder"
+  },
+  "music": {
+    "name": "music",
+    "path": "C:\\Users\\Gabo\\Music",
+    "source": "known_folder"
+  },
+  "inventario": {
+    "name": "INVENTARIO",
+    "path": "C:\\Users\\Gabo\\Desktop\\INVENTARIO",
+    "source": "desktop"
+  },
+  "jarvis": {
+    "name": "JARVIS",
+    "path": "C:\\Users\\Gabo\\Desktop\\JARVIS",
+    "source": "desktop"
+  },
+  "userdata": {
+    "name": "UserData",
+    "path": "C:\\Users\\Gabo\\Desktop\\UserData",
+    "source": "desktop"
+  },
+  "videos obs": {
+    "name": "VIDEOS OBS",
+    "path": "C:\\Users\\Gabo\\Desktop\\VIDEOS OBS",
+    "source": "desktop"
+  },
+  "videos valiosos": {
+    "name": "videos valiosos",
+    "path": "C:\\Users\\Gabo\\Desktop\\videos valiosos",
+    "source": "desktop"
+  },
+  "captures": {
+    "name": "captures",
+    "path": "C:\\Users\\Gabo\\Desktop\\JARVIS\\captures",
+    "source": "desktop"
+  },
+  "colab_browser_profile": {
+    "name": "colab_browser_profile",
+    "path": "C:\\Users\\Gabo\\Desktop\\JARVIS\\colab_browser_profile",
+    "source": "desktop"
+  },
+  "jarvisapp": {
+    "name": "JarvisApp",
+    "path": "C:\\Users\\Gabo\\Desktop\\JARVIS\\JarvisApp",
+    "source": "desktop"
+  },
+  "searxng": {
+    "name": "searxng",
+    "path": "C:\\Users\\Gabo\\Desktop\\JARVIS\\searxng",
+    "source": "desktop"
+  },
+  "voices": {
+    "name": "voices",
+    "path": "C:\\Users\\Gabo\\Desktop\\JARVIS\\voices",
+    "source": "desktop"
+  },
+  "airdroidcast": {
+    "name": "AirDroidCast",
+    "path": "C:\\Users\\Gabo\\Documents\\AirDroidCast",
+    "source": "documents"
+  },
+  "briellas": {
+    "name": "BRIELLAS",
+    "path": "C:\\Users\\Gabo\\Documents\\BRIELLAS",
+    "source": "documents"
+  },
+  "eduis": {
+    "name": "eduis",
+    "path": "C:\\Users\\Gabo\\Documents\\eduis",
+    "source": "documents"
+  },
+  "image-line": {
+    "name": "Image-Line",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line",
+    "source": "documents"
+  },
+  "kingsoftdata": {
+    "name": "KingsoftData",
+    "path": "C:\\Users\\Gabo\\Documents\\KingsoftData",
+    "source": "documents"
+  },
+  "my games": {
+    "name": "My Games",
+    "path": "C:\\Users\\Gabo\\Documents\\My Games",
+    "source": "documents"
+  },
+  "my music": {
+    "name": "My Music",
+    "path": "C:\\Users\\Gabo\\Documents\\My Music",
+    "source": "documents"
+  },
+  "my pictures": {
+    "name": "My Pictures",
+    "path": "C:\\Users\\Gabo\\Documents\\My Pictures",
+    "source": "documents"
+  },
+  "my videos": {
+    "name": "My Videos",
+    "path": "C:\\Users\\Gabo\\Documents\\My Videos",
+    "source": "documents"
+  },
+  "rockstar games": {
+    "name": "Rockstar Games",
+    "path": "C:\\Users\\Gabo\\Documents\\Rockstar Games",
+    "source": "documents"
+  },
+  "san andreas": {
+    "name": "san andreas",
+    "path": "C:\\Users\\Gabo\\Documents\\san andreas",
+    "source": "documents"
+  },
+  "sound recordings": {
+    "name": "Sound recordings",
+    "path": "C:\\Users\\Gabo\\Documents\\Sound recordings",
+    "source": "documents"
+  },
+  "y": {
+    "name": "y",
+    "path": "C:\\Users\\Gabo\\Documents\\y",
+    "source": "documents"
+  },
+  "y23": {
+    "name": "y23",
+    "path": "C:\\Users\\Gabo\\Documents\\y23",
+    "source": "documents"
+  },
+  "backup": {
+    "name": "Backup",
+    "path": "C:\\Users\\Gabo\\Documents\\AirDroidCast\\Backup",
+    "source": "documents"
+  },
+  "publicstaging": {
+    "name": "PublicStaging",
+    "path": "C:\\Users\\Gabo\\Documents\\AirDroidCast\\PublicStaging",
+    "source": "documents"
+  },
+  "screenshot": {
+    "name": "ScreenShot",
+    "path": "C:\\Users\\Gabo\\Documents\\AirDroidCast\\ScreenShot",
+    "source": "documents"
+  },
+  "bassdrum": {
+    "name": "bassdrum",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\bassdrum",
+    "source": "documents"
+  },
+  "directwave": {
+    "name": "DirectWave",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\DirectWave",
+    "source": "documents"
+  },
+  "drumaxx": {
+    "name": "Drumaxx",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Drumaxx",
+    "source": "documents"
+  },
+  "edison": {
+    "name": "Edison",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Edison",
+    "source": "documents"
+  },
+  "fl studio": {
+    "name": "FL Studio",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\FL Studio",
+    "source": "documents"
+  },
+  "fl studio mobile": {
+    "name": "FL Studio Mobile",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\FL Studio Mobile",
+    "source": "documents"
+  },
+  "flex": {
+    "name": "FLEX",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\FLEX",
+    "source": "documents"
+  },
+  "fpc": {
+    "name": "FPC",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\FPC",
+    "source": "documents"
+  },
+  "fruity convolver": {
+    "name": "Fruity Convolver",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Fruity Convolver",
+    "source": "documents"
+  },
+  "fruity envelope controller": {
+    "name": "Fruity Envelope Controller",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Fruity Envelope Controller",
+    "source": "documents"
+  },
+  "fruity waveshaper": {
+    "name": "Fruity WaveShaper",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Fruity WaveShaper",
+    "source": "documents"
+  },
+  "fruity x-y-z controller": {
+    "name": "Fruity X-Y-Z Controller",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Fruity X-Y-Z Controller",
+    "source": "documents"
+  },
+  "gms": {
+    "name": "gms",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\gms",
+    "source": "documents"
+  },
+  "gross beat": {
+    "name": "Gross Beat",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Gross Beat",
+    "source": "documents"
+  },
+  "harmor": {
+    "name": "Harmor",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Harmor",
+    "source": "documents"
+  },
+  "loops": {
+    "name": "Loops",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Loops",
+    "source": "documents"
+  },
+  "maximus": {
+    "name": "Maximus",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Maximus",
+    "source": "documents"
+  },
+  "poizone": {
+    "name": "poizone",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\poizone",
+    "source": "documents"
+  },
+  "sakura": {
+    "name": "sakura",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\sakura",
+    "source": "documents"
+  },
+  "sawer": {
+    "name": "sawer",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\sawer",
+    "source": "documents"
+  },
+  "soundgoodizer": {
+    "name": "Soundgoodizer",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Soundgoodizer",
+    "source": "documents"
+  },
+  "synthmaker": {
+    "name": "SynthMaker",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\SynthMaker",
+    "source": "documents"
+  },
+  "sytrus": {
+    "name": "Sytrus",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\Sytrus",
+    "source": "documents"
+  },
+  "toxic biohazard": {
+    "name": "toxic biohazard",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\toxic biohazard",
+    "source": "documents"
+  },
+  "vfx keyboard splitter": {
+    "name": "VFX Keyboard Splitter",
+    "path": "C:\\Users\\Gabo\\Documents\\Image-Line\\VFX Keyboard Splitter",
+    "source": "documents"
+  },
+  "office6": {
+    "name": "office6",
+    "path": "C:\\Users\\Gabo\\Documents\\KingsoftData\\office6",
+    "source": "documents"
+  },
+  "outlast": {
+    "name": "Outlast",
+    "path": "C:\\Users\\Gabo\\Documents\\My Games\\Outlast",
+    "source": "documents"
+  },
+  "gta v": {
+    "name": "GTA V",
+    "path": "C:\\Users\\Gabo\\Documents\\Rockstar Games\\GTA V",
+    "source": "documents"
+  },
+  "launcher": {
+    "name": "Launcher",
+    "path": "C:\\Users\\Gabo\\Documents\\Rockstar Games\\Launcher",
+    "source": "documents"
+  },
+  "social club": {
+    "name": "Social Club",
+    "path": "C:\\Users\\Gabo\\Documents\\Rockstar Games\\Social Club",
+    "source": "documents"
+  },
+  "gabriel alejandro - imagen franelas realistas_files": {
+    "name": "Gabriel Alejandro - Imagen franelas realistas_files",
+    "path": "C:\\Users\\Gabo\\Downloads\\Gabriel Alejandro - Imagen franelas realistas_files",
+    "source": "downloads"
+  },
+  "open-webui-main": {
+    "name": "open-webui-main",
+    "path": "C:\\Users\\Gabo\\Downloads\\open-webui-main",
+    "source": "downloads"
+  },
+  "transcriptor_completo_whisper_windows": {
+    "name": "Transcriptor_completo_Whisper_Windows",
+    "path": "C:\\Users\\Gabo\\Downloads\\Transcriptor_completo_Whisper_Windows",
+    "source": "downloads"
+  },
+  "camera roll": {
+    "name": "Camera Roll",
+    "path": "C:\\Users\\Gabo\\Pictures\\Camera Roll",
+    "source": "pictures"
+  },
+  "feedback": {
+    "name": "Feedback",
+    "path": "C:\\Users\\Gabo\\Pictures\\Feedback",
+    "source": "pictures"
+  },
+  "memu photo": {
+    "name": "MEmu Photo",
+    "path": "C:\\Users\\Gabo\\Pictures\\MEmu Photo",
+    "source": "pictures"
+  },
+  "roblox": {
+    "name": "Roblox",
+    "path": "C:\\Users\\Gabo\\Pictures\\Roblox",
+    "source": "pictures"
+  },
+  "saved pictures": {
+    "name": "Saved Pictures",
+    "path": "C:\\Users\\Gabo\\Pictures\\Saved Pictures",
+    "source": "pictures"
+  },
+  "40e84247-9288-4d4a-8511-798bb8ebfd31": {
+    "name": "{40E84247-9288-4D4A-8511-798BB8EBFD31}",
+    "path": "C:\\Users\\Gabo\\Pictures\\Feedback\\{40E84247-9288-4D4A-8511-798BB8EBFD31}",
+    "source": "pictures"
+  },
+  "91758e89-0a6e-45e7-a0e3-ac780f7d5b21": {
+    "name": "{91758E89-0A6E-45E7-A0E3-AC780F7D5B21}",
+    "path": "C:\\Users\\Gabo\\Pictures\\Feedback\\{91758E89-0A6E-45E7-A0E3-AC780F7D5B21}",
+    "source": "pictures"
+  },
+  "cb6bcf49-b8e4-4d02-b41b-18052bfa5a31": {
+    "name": "{CB6BCF49-B8E4-4D02-B41B-18052BFA5A31}",
+    "path": "C:\\Users\\Gabo\\Pictures\\Feedback\\{CB6BCF49-B8E4-4D02-B41B-18052BFA5A31}",
+    "source": "pictures"
+  },
+  "f52813c0-9214-41a5-b95b-afbba9e9bde4": {
+    "name": "{F52813C0-9214-41A5-B95B-AFBBA9E9BDE4}",
+    "path": "C:\\Users\\Gabo\\Pictures\\Feedback\\{F52813C0-9214-41A5-B95B-AFBBA9E9BDE4}",
+    "source": "pictures"
+  },
+  "anydesk": {
+    "name": "AnyDesk",
+    "path": "C:\\Users\\Gabo\\Videos\\AnyDesk",
+    "source": "videos"
+  },
+  "bluestacks-pie64": {
+    "name": "BlueStacks-Pie64",
+    "path": "C:\\Users\\Gabo\\Videos\\BlueStacks-Pie64",
+    "source": "videos"
+  },
+  "screen recordings": {
+    "name": "screen recordings",
+    "path": "C:\\Users\\Gabo\\Videos\\AnyDesk\\screen recordings",
+    "source": "videos"
+  },
+  "highlights": {
+    "name": "Highlights",
+    "path": "C:\\Users\\Gabo\\Videos\\BlueStacks-Pie64\\Highlights",
+    "source": "videos"
+  },
+  "memu music": {
+    "name": "MEmu Music",
+    "path": "C:\\Users\\Gabo\\Music\\MEmu Music",
+    "source": "music"
+  },
+  "onedrive": {
+    "name": "OneDrive",
+    "path": "C:\\Users\\Gabo\\OneDrive",
+    "source": "onedrive"
+  },
+  "datos adjuntos": {
+    "name": "Datos adjuntos",
+    "path": "C:\\Users\\Gabo\\OneDrive\\Datos adjuntos",
+    "source": "onedrive"
+  },
+  "escaneos": {
+    "name": "Escaneos",
+    "path": "C:\\Users\\Gabo\\OneDrive\\Escaneos",
+    "source": "onedrive"
+  },
+  "galería de samsung": {
+    "name": "Galería de Samsung",
+    "path": "C:\\Users\\Gabo\\OneDrive\\Imágenes\\Galería de Samsung",
+    "source": "onedrive"
+  },
+  "sd card": {
+    "name": "SD Card",
+    "path": "C:\\Users\\Gabo\\OneDrive\\Imágenes\\SD Card",
+    "source": "onedrive"
+  }
+}

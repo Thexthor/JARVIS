@@ -1,0 +1,22 @@
+[
+  {
+    "texto": "jarvis recuerda que mi color favorito es el azul",
+    "fecha": "2026-05-11 16:22:05"
+  },
+  {
+    "tipo": "dato",
+    "clave": "color_favorito",
+    "valor": "el azul",
+    "texto": "Tu color favorito es el azul.",
+    "original": "jarvis recuerda que mi color favorito es el azul",
+    "fecha": "2026-05-11 16:28:44"
+  },
+  {
+    "tipo": "dato",
+    "clave": "color_favorito",
+    "valor": "el azul",
+    "texto": "Tu color favorito es el azul.",
+    "original": "Recuerda que mi color favorito es el azul",
+    "fecha": "2026-05-15 13:52:33"
+  }
+]
