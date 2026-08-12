@@ -1,0 +1,15 @@
+// opencode.jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "jarvis",
+  "permission": {
+    "read": "allow",
+    "list": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "lsp": "allow",
+    "skill": "allow",
+    "bash": "ask",
+    "edit": "ask"
+  }
+}
